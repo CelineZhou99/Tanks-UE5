@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>185CE3D7433FBABFA14ACBB0BA7BA916</ExecutionGuid>
+<CrashGUID>UECC-Windows-AF3668194B205E6B4863FD81FF6C2AB5_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Fatal error: [File:D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\Serialization\AsyncLoading2.cpp] [Line: 1245] 
+ObjectSerializationError: /Game/Maps/Main (0xF9625725C96E9F48) /Game/Maps/Main (0xF9625725C96E9F48) - BasePawn /Game/Maps/Main.Main:PersistentLevel.BasePawn_3: Bad name index 5633/56.
+
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>3736</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE5-ToonTanks</GameName>
+<ExecutableName>ToonTanks</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.0.3-20979098+++UE5+Release-5.0</EngineVersion>
+<CommandLine> ToonTanks</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-AU</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.0-CL-20979098</BuildVersion>
+<Symbols>**UE5*Release-5.0-CL-20979098-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>E:/UnrealProjects/ToonTanks/Build/Windows/ToonTanks/Binaries/Win64/</BaseDir>
+<RootDir>E:/UnrealProjects/ToonTanks/Build/Windows/</RootDir>
+<MachineId>F3995F9D4172F06884E77CACFC345A0A</MachineId>
+<LoginId>f3995f9d4172f06884e77cacfc345a0a</LoginId>
+<EpicAccountId>b56561a5cafd4f14bfe7afda2d60b92a</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1080 Ti</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (21H2) [10.0.19044.2130]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>34279366656</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>36426850304</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>17263820800</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>10139635712</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>286072832</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>312705024</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>370151424</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>397139968</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>3</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+ToonTanks  0x00007ff7ec9b0000 + 25ebe87         
+ToonTanks  0x00007ff7ec9b0000 + 25ac907         
+ToonTanks  0x00007ff7ec9b0000 + 26d1028         
+ToonTanks  0x00007ff7ec9b0000 + 27d1cd2         
+ToonTanks  0x00007ff7ec9b0000 + 27d1a01         
+ToonTanks  0x00007ff7ec9b0000 + 27d1870         
+ToonTanks  0x00007ff7ec9b0000 + 69609e4         
+ToonTanks  0x00007ff7ec9b0000 + 25d17e0         
+ToonTanks  0x00007ff7ec9b0000 + 25d8b70         
+ToonTanks  0x00007ff7ec9b0000 + 25dc7a3         
+ToonTanks  0x00007ff7ec9b0000 + 25f64a6         
+ToonTanks  0x00007ff7ec9b0000 + 2615764         
+ToonTanks  0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks  0x00007ff7ec9b0000 + 24ea960         
+KERNEL32   0x00007ff9de690000 + 17034           
+ntdll      0x00007ff9df4b0000 + 526a1           
+</PCallStack>
+<PCallStackHash>02BDCDACFD402E1195638D2201863EB0F749D394</PCallStackHash>
+<Threads><Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d984           
+KERNELBASE  0x00007ff9dcee0000 + 677a4           
+ToonTanks   0x00007ff7ec9b0000 + 25e50bf         
+ToonTanks   0x00007ff7ec9b0000 + 264178f         
+ToonTanks   0x00007ff7ec9b0000 + 28d86b9         
+ToonTanks   0x00007ff7ec9b0000 + 28d8184         
+ToonTanks   0x00007ff7ec9b0000 + 799ce06         
+ToonTanks   0x00007ff7ec9b0000 + 794851c         
+ToonTanks   0x00007ff7ec9b0000 + 6f630af         
+ToonTanks   0x00007ff7ec9b0000 + ac4ce8          
+ToonTanks   0x00007ff7ec9b0000 + ae138e          
+ToonTanks   0x00007ff7ec9b0000 + ae156a          
+ToonTanks   0x00007ff7ec9b0000 + ae45ec          
+ToonTanks   0x00007ff7ec9b0000 + af5da4          
+ToonTanks   0x00007ff7ec9b0000 + 8b6547a         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3380</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4028</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8712</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18936</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3808</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11308</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18096</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7304</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17704</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21148</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eb2b67         
+ToonTanks   0x00007ff7ec9b0000 + 1eb4a19         
+ToonTanks   0x00007ff7ec9b0000 + 1e88680         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9328</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1fce119         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2368</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1fce119         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21156</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16944</ThreadID>
+<ThreadName>Reserve Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9248</ThreadID>
+<ThreadName>Reserve Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20980</ThreadID>
+<ThreadName>Reserve Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13272</ThreadID>
+<ThreadName>Reserve Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2508</ThreadID>
+<ThreadName>Reserve Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9628</ThreadID>
+<ThreadName>Reserve Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10604</ThreadID>
+<ThreadName>Reserve Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17196</ThreadID>
+<ThreadName>Reserve Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16460</ThreadID>
+<ThreadName>Reserve Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1e8457f         
+ToonTanks   0x00007ff7ec9b0000 + 1fce475         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20572</ThreadID>
+<ThreadName>Reserve Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d744           
+KERNELBASE  0x00007ff9dcee0000 + 4b03e           
+ToonTanks   0x00007ff7ec9b0000 + 217e925         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11844</ThreadID>
+<ThreadName>FAsyncWriter_ToonTanks</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 6829fdc         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13436</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d744           
+KERNELBASE  0x00007ff9dcee0000 + 4b03e           
+ToonTanks   0x00007ff7ec9b0000 + 2953d71         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10448</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1b7e826         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5248</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1fce119         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12616</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1fce119         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3316</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1fce119         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3528</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1fce119         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6004</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 6773b02         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7952</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 2099233         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12704</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 1eaade0         
+ToonTanks   0x00007ff7ec9b0000 + 1eab5ee         
+ToonTanks   0x00007ff7ec9b0000 + 1eab991         
+ToonTanks   0x00007ff7ec9b0000 + 5cb421f         
+ToonTanks   0x00007ff7ec9b0000 + 5cb6e31         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3592</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d744           
+KERNELBASE  0x00007ff9dcee0000 + 4b03e           
+ToonTanks   0x00007ff7ec9b0000 + 24f2bef         
+ToonTanks   0x00007ff7ec9b0000 + 5cb6ee8         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5104</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 315540c         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21340</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00007ff9df4b0000 + 9d144           
+KERNELBASE    0x00007ff9dcee0000 + 2306e           
+ToonTanks     0x00007ff7ec9b0000 + 24d60bd         
+ToonTanks     0x00007ff7ec9b0000 + 8ba159e         
+VCRUNTIME140  0x00007ff9cd230000 + efc0            
+ntdll         0x00007ff9df4b0000 + a241f           
+ntdll         0x00007ff9df4b0000 + 514a4           
+ntdll         0x00007ff9df4b0000 + 511f5           
+KERNELBASE    0x00007ff9dcee0000 + 2cd29           
+ToonTanks     0x00007ff7ec9b0000 + 24d9f9a         
+ToonTanks     0x00007ff7ec9b0000 + 21706fd         
+ToonTanks     0x00007ff7ec9b0000 + 25ebe87         
+ToonTanks     0x00007ff7ec9b0000 + 25ac907         
+ToonTanks     0x00007ff7ec9b0000 + 26d1028         
+ToonTanks     0x00007ff7ec9b0000 + 27d1cd2         
+ToonTanks     0x00007ff7ec9b0000 + 27d1a01         
+ToonTanks     0x00007ff7ec9b0000 + 27d1870         
+ToonTanks     0x00007ff7ec9b0000 + 69609e4         
+ToonTanks     0x00007ff7ec9b0000 + 25d17e0         
+ToonTanks     0x00007ff7ec9b0000 + 25d8b70         
+ToonTanks     0x00007ff7ec9b0000 + 25dc7a3         
+ToonTanks     0x00007ff7ec9b0000 + 25f64a6         
+ToonTanks     0x00007ff7ec9b0000 + 2615764         
+ToonTanks     0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks     0x00007ff7ec9b0000 + 24ea960         
+KERNEL32      0x00007ff9de690000 + 17034           
+ntdll         0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>19484</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 8331982         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20740</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d744           
+KERNELBASE  0x00007ff9dcee0000 + 4b03e           
+ToonTanks   0x00007ff7ec9b0000 + 24f2bef         
+ToonTanks   0x00007ff7ec9b0000 + 79b5431         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21124</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 61652bb         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7576</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 6165793         
+ToonTanks   0x00007ff7ec9b0000 + 6165631         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1892</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9df4b0000 + 9d144           
+KERNELBASE  0x00007ff9dcee0000 + 2306e           
+ToonTanks   0x00007ff7ec9b0000 + 24f4ef2         
+ToonTanks   0x00007ff7ec9b0000 + 27875b2         
+ToonTanks   0x00007ff7ec9b0000 + 24f1ceb         
+ToonTanks   0x00007ff7ec9b0000 + 24ea960         
+KERNEL32    0x00007ff9de690000 + 17034           
+ntdll       0x00007ff9df4b0000 + 526a1           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8364</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus_Windows>No errors</MatchingDPStatus_Windows>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Aftermath>false</RHI.Aftermath>
+<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1080 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>522.25</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.2225</RHI.InternalDriverVersion>
+<RHI.DriverDate>10-6-2022</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DriverBlacklisted>false</RHI.DriverBlacklisted>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
